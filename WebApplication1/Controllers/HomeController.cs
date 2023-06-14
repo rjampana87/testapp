@@ -26,6 +26,14 @@ namespace WebApplication1.Controllers
             return View(students);
         }
 
+        public ActionResult Index3(string name = "")
+        {
+            Class1 data = new Class1();
+            var st = data.getStudent();
+
+            return View(st);
+            //return View(students);
+        }
         public ActionResult Index2(string name = "")
         {
             Class1 data = new Class1();
