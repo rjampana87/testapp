@@ -19,6 +19,8 @@ namespace WebApplication1.Controllers
             {
                 new Student() { Id = 1, Name = "ABC" },
                 new Student() { Id=2, Name = "XYZ" },
+                new Student() { Id=2, Name = "XYZ" },
+                new Student() { Id=2, Name = "XYZ" },
                 new Student() { Id = 3, Name = "abc" }
 
             };
